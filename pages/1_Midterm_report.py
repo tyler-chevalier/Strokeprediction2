@@ -76,7 +76,7 @@ Our features currently favor positive prediction. To improve specificity, we wil
 """)
 st.image("Images_for_visualizations/Accuracies.png", caption="Variant Accuracies")
 st.image("Images_for_visualizations/F1Scores.png", caption="Variant F1 Scores")
-st.image("Images_for_visualizations/Other.png", caption="Likelihood Ratios")
+st.image("Images_for_visualizations/other.png", caption="Likelihood Ratios")
 st.subheader("Visualizations of dataset")
 
 st.image("Images_for_visualizations/vis1.png",caption="Percent of stroke based on gender")
