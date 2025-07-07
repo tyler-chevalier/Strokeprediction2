@@ -1,6 +1,5 @@
 import streamlit as st
-import import_ipynb
-import Project
+
 import seaborn as sns
 import matplotlib.pyplot as plt
 import pandas as pd
