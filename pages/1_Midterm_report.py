@@ -81,16 +81,16 @@ st.subheader("Visualizations of dataset")
 
 st.image("Images_for_visualizations/vis1.png",caption="Percent of stroke based on gender")
 
-st.image(["Images_for_visualizations/freq_based_on_Age.png", "Images_for_visualizations/freq_glucose.png"],
-         caption=["Frequency based on age","Frequency base on glucose"])
+st.image(["Images_for_visualizations/freq_based_on_age.png", "Images_for_visualizations/freq_glucose.png"],
+         caption=["frequency based on age","frequency base on glucose"])
 st.image(["Images_for_visualizations/freq_heart_disease.png","Images_for_visualizations/freq_hypertension.png"],
-         caption=["Frequency given heart disease","Frequency given hypertension"])
+         caption=["frequency given heart disease","frequency given hypertension"])
 st.image(["Images_for_visualizations/freq_married.png", "Images_for_visualizations/freq_residence.png"],
-         caption=["Frequency given married status", "Frequency given residence type"])
+         caption=["frequency given married status", "frequency given residence type"])
 st.image(["Images_for_visualizations/freq_smoking.png", "Images_for_visualizations/freq_work_type.png"],
-         caption=["Frequency given smoking status", "Frequency given work type"])
+         caption=["frequency given smoking status", "frequency given work type"])
 st.image(["Images_for_visualizations/percent_given_age.png", "Images_for_visualizations/percent_BMI.png"],
-         caption=["Percent given age", "Percent BMI"])
+         caption=["percent_given_age", "Percent BMI"])
 
 
 st.subheader("Next Steps")
