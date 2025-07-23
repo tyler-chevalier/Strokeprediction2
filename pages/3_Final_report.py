@@ -128,7 +128,7 @@ For the third model, which used all features and SMOTE, the metrics achieved wer
 """)
 st.image("Images_for_visualizations/SVMacc.png", caption="SVM Accuracy")
 st.image("Images_for_visualizations/SVMf1.png", caption="SVM F1 Score")
-st.image("Images_for_visualizations/SVMVis.png", caption="Radial SVM")
+st.image("Images_for_visualizations/SVMvis.png", caption="Radial SVM")
 st.subheader("Random Forest")
 st.write("""
 Our third model was Random Forest. On first attempts, using all the features from the dataset as is made our accuracy for negatives 
