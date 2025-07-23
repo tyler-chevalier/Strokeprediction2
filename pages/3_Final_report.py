@@ -94,7 +94,8 @@ The third model used all features, but used smote on the dataset. The metrics ac
 
 
 """)
-
+st.image("Images_for_visualizations/BayesAcc.png", caption="Naive Bayes Accuracy")
+st.image("Images_for_visualizations/Bayesf1.png", caption="Naive Bayes F1 Score")
 st.subheader("Support Vector Machine")
 st.write("""
 The second model was Support Vector Machine. This was the model that had achieved the highest metrics in the literature reviewed, so it was expected that it was possible to use SVM to achieve greater than 90% for the accuracy and F1 score metrics. However, there were limitations in the chosen dataset that made it not possible for this to be achieved.
@@ -125,7 +126,9 @@ For the third model, which used all features and SMOTE, the metrics achieved wer
 
 
 """)
-
+st.image("Images_for_visualizations/SVMacc.png", caption="SVM Accuracy")
+st.image("Images_for_visualizations/SVMf1.png", caption="SVM F1 Score")
+st.image("Images_for_visualizations/SVMVis.png", caption="Radial SVM")
 st.subheader("Random Forest")
 st.write("""
 Our third model was Random Forest. On first attempts, using all the features from the dataset as is made our accuracy for negatives 
@@ -136,6 +139,8 @@ implemented PCA to try and raise our F1, and we only managed to get it to 0.03. 
 points, which helped our metrics improve. The SMOTE implementation of Random Forest gave us our best F1 Score, and our best recall so far, 
 peaking at 0.25 and 0.38 respectively.
 """)
+st.image("Images_for_visualizations/RFacc.png", caption="Random Forest Accuracy")
+st.image("Images_for_visualizations/RFf1.png", caption="Random Forest F1 Score")
 
 # Results and Discussion
 st.header("Results and Discussion")
