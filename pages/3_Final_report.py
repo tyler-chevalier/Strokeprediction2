@@ -54,7 +54,7 @@ st.subheader("Visualizations of dataset")
 
 st.image("Images_for_visualizations/vis1.png",caption="Percent of stroke based on gender")
 
-st.image(["Images_for_visualizations/freq_based_on_Age.png", "Images_for_visualizations/freq_glucose.png"],
+st.image(["Images_for_visualizations/freq_based_on_age.png", "Images_for_visualizations/freq_glucose.png"],
          caption=["Frequency based on age","Frequency base on glucose"])
 st.image(["Images_for_visualizations/freq_heart_disease.png","Images_for_visualizations/freq_hypertension.png"],
          caption=["Frequency given heart disease","Frequency given hypertension"])
